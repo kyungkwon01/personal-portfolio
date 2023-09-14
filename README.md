@@ -11,18 +11,17 @@ Welcome to my web portfolio project! This web application showcases my work, ski
 -   [Usage](#usage)
 -   [Technologies Used](#technologies-used)
 -   [Contributing](#contributing)
--   [License](#license)
 
 ## Deployment
 
-You can see a live site of this portfolio at .
+You can see a live site of this portfolio at: https://kyungkwon01.github.io/personal-portfolio/
 
 ## Features
 
 -   Responsive design: The portfolio is designed to look great on all screen sizes and devices.
 -   About: Share a brief introduction and your contact information.
 -   Skills: Highlight your technical skills and expertise.
--   Project showcase: Display your projects with descriptions, screenshots, and links.
+-   Project showcase: Display your projects with screenshots, and links.
 -   Contact form: Allow visitors to get in touch with you directly through a contact form.
 
 ## Getting Started
@@ -80,7 +79,3 @@ Deploy your portfolio to a hosting service of your choice when you're ready to s
 ## Contributing
 
 If you'd like to contribute to this project or report issues, please open an issue or pull request on the GitHub repository.
-
-## License
-
-This project is licensed under the MIT License.
