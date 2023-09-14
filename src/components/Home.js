@@ -1,6 +1,12 @@
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import Resume from '../assets/simple-resume-format.png';
 
 const Home = () => {
+	function handleClick(e) {
+		e.preventDefault();
+		window.open(Resume);
+	}
+
 	return (
 		<div
 			name='home'
@@ -26,9 +32,12 @@ const Home = () => {
 				</p>
 
 				<div>
-					<button className=' text-white border-2 px-6 py-3 my-2 flex items-center'>
-						View Work
-						<span className=''>
+					<button
+						className=' text-white border-2 px-6 py-3 my-2 flex items-center'
+						onClick={handleClick}
+					>
+						View Resume
+						<span>
 							<HiArrowNarrowRight className='ml-3' />
 						</span>
 					</button>
