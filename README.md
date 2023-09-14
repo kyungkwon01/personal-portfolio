@@ -75,6 +75,7 @@ Deploy your portfolio to a hosting service of your choice when you're ready to s
 -   CSS3
 -   Tailwind
 -   React-Scroll
+-   React-Hook-Form
 
 ## Contributing
 
