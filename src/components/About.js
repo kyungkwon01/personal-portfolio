@@ -1,3 +1,5 @@
+import Profile from '../assets/profile.jpg';
+
 const About = () => {
 	return (
 		<div
@@ -11,7 +13,6 @@ const About = () => {
 							About
 						</p>
 					</div>
-					<div></div>
 				</div>
 				<div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
 					<div className='sm:text-right text-4xl font-bold my-auto'>
@@ -26,6 +27,13 @@ const About = () => {
 						build dynamic and responsive web applications that cater
 						to a diverse range of user needs.
 					</p>
+				</div>
+				<div className='pt-10'>
+					<img
+						className='profile-img'
+						alt='profile'
+						src={Profile}
+					/>
 				</div>
 			</div>
 		</div>
