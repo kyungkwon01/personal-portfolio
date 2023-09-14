@@ -58,7 +58,7 @@ Customize the content:
     Run the development server:
 
 ```
-npm run dev
+npm start
 ```
 
 Open your web browser and navigate to http://localhost:3000 to view your portfolio locally.
