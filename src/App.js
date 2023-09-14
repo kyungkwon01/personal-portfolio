@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import LineGradient from './components/LineGradient';
+import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='bg-[#0a192f]'>
+			<div>
+				<Navbar />
+			</div>
+			<div>
+				<Home />
+			</div>
+			<div>
+				<LineGradient />
+			</div>
+			<div>
+				<About />
+			</div>
+			<div className='mb-10'>
+				<LineGradient />
+			</div>
+			<div>
+				<Skills />
+			</div>
+			<div className='mb-10'>
+				<LineGradient />
+			</div>
+			<div>
+				<Projects />
+			</div>
+			<div className='mt-10'>
+				<LineGradient />
+			</div>
+			<div>
+				<Contact />
+			</div>
+			<div>
+				<Footer />
+			</div>
+		</div>
+	);
 }
 
 export default App;
